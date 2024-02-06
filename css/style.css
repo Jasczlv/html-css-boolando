@@ -51,26 +51,37 @@ main.container{
     margin-bottom: 200px;
 }
 
+.card {
+    padding: 5px;
+}
+
 .column {
     flex-direction: column;
 }
 
 .col-4 {
     max-width:calc( 4 * 100% / 12) ;
-    padding: 5px;
+    
 }
-
+/* 
 .badge {
     z-index: 1;
+} */
+
+.sost {
+    font-size: 20px;
+    bottom: 100px;
 }
 
-.sost
-
-.sconto
+.sconto {
+    font-size: 20px;
+    bottom: 100px;
+}
 
 .preferiti {
-    position: absolute;
-    top: 0;
+    font-size: 30px;
+    top: 15px;
+    right: 15px;
 }
 
 .img-smile {
@@ -93,10 +104,7 @@ main.container{
 
 /* debug */
 
-/* .debug .container .col-4{
+.debug .container .col-4{
     background-color: red;
 } */
 
-/*.card {
-    border: 1px solid black;
-} */
