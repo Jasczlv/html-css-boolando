@@ -49,6 +49,7 @@ main.container{
     flex-direction: row;
     display: flex;
     margin-bottom: 200px;
+    justify-content: space-evenly;
 }
 
 .card {
@@ -63,19 +64,33 @@ main.container{
     max-width:calc( 4 * 100% / 12) ;
     
 }
+
 /* 
 .badge {
     z-index: 1;
 } */
 
+.presconto {
+    color: black;
+}
+
 .sost {
     font-size: 20px;
-    bottom: 100px;
+    bottom: 50px;
+    left: 50px;
+    margin-left: 10px;
+    background-color: Green;
+    color: white;
+    padding: 2px;
 }
 
 .sconto {
     font-size: 20px;
-    bottom: 100px;
+    bottom: 50px;
+    margin-left: 5px;
+    background-color: red;
+    color: white;
+    padding: 2px;
 }
 
 .preferiti {
@@ -86,6 +101,7 @@ main.container{
 
 .img-smile {
     max-width: 300px;
+    margin-bottom: 10px;
 }
 
 .prezzo {
@@ -103,8 +119,8 @@ main.container{
 
 
 /* debug */
-
+/* 
 .debug .container .col-4{
     background-color: red;
 } */
-
+ */
